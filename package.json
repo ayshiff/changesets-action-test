@@ -6,6 +6,9 @@
     "release": "npx changeset publish"
   },
   "repository": "git@github.com:ayshiff/changesets-action-test.git",
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "Rémi Doreau <remi.d45@gmail.com>",
   "license": "MIT",
   "dependencies": {
