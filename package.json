@@ -1,0 +1,14 @@
+{
+  "name": "@ayshiff/changesets-action-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "release": "npx changeset publish"
+  },
+  "repository": "git@github.com:ayshiff/changesets-action-test.git",
+  "author": "Rémi Doreau <remi.d45@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@changesets/cli": "^2.14.1"
+  }
+}
